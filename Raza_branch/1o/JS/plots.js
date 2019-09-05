@@ -144,8 +144,8 @@ button.on("click", function() {
   console.log(Injured);
   var sum = math.sum(Injured);
   console.log(sum);
-  // var mean = math.mean(...Injured);
-  // console.log(mean);
+ var mean = math.mean(...Injured);
+ console.log(mean);
   // var median = math.median(ages);
   // var mode = math.mode(ages);
   // var variance = math.var(ages);
