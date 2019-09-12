@@ -1,0 +1,51 @@
+,Incident ID,Incident Date,year,State,City Or County,Address,# Killed,# Injured,lat, lon
+2,1288883, December 31,2018, Pennsylvania, Waterville, Church St,1,0,44.4759473,-73.2124828
+3,1289893, December 31,2018, South Carolina, Columbia, 300 block of S Highland Forest Dr,1,0,34.0928999,-80.9988734
+4,1290256, December 31,2018, Texas, Fort Worth, 2900 Renaissance Dr,0,1,32.7108807,-97.2831581
+5,1289282, December 31,2018, Missouri, Springfield, 500 block of S New Ave,0,0,37.2055851,-93.3055119
+6,1292746, December 31,2018, Ohio, Cleveland, W St Clair Ave and W 9th St,0,1,41.4987437,-81.7003128
+7,1290238, December 31,2018, Kentucky, Hopkinsville, 101 Talbert Dr,0,1,36.8828313,-87.4830306
+8,1289274, December 31,2018, New York, Nyack, 108 Main St,0,0,38.8019848,-90.6266517
+9,1290226, December 31,2018, Louisiana, New Orleans, 4700 block of Piety St,0,1,29.9943241,-90.0333592
+10,1290221, December 31,2018, Oklahoma, Tulsa, N/A,0,0,37.09024,-95.712891
+11,1292736, December 31,2018, South Carolina, Burton, Milledge Village Rd,0,0,32.4303147,-80.7381162
+12,1289359, December 31,2018, Pennsylvania, Philadelphia, 4200 block of N Broad St,0,0,40.0173835,-75.1498637
+13,1289354, December 31,2018, Connecticut, Hartford, 942 Main St,0,2,41.7678325,-72.672893
+14,1289335, December 31,2018, Louisiana, New Orleans, 2500 block of Gravier St,1,0,29.9594665,-90.0889427
+15,1291538, December 31,2018, Pennsylvania, Douglassville, 2300 block of E Main St,0,0,33.4161731,-111.7814978
+16,1290194, December 31,2018, Missouri, Saint Louis, Davis St and Virginia Ave,1,0,36.854031,-76.1706009
+17,1290183, December 31,2018, West Virginia, Charleston, N/A,0,0,37.09024,-95.712891
+18,1289279, December 31,2018, Alabama, Birmingham, 3205 Birmingport Rd,1,1,33.531421,-86.941832
+19,1290186, December 31,2018, New York, Buffalo, Cambridge Ave,0,1,41.064849,-80.646119
+20,1291341, December 31,2018, Michigan, Benton Harbor, 2086 Colfax Ave,1,0,42.080394,-86.45643
+21,1290159, December 31,2018, Louisiana, New Iberia, Ann St and 20 Arpent Rd,0,1,29.9945391,-91.8154363
+22,1289238, December 31,2018, Florida, Miami Gardens, 4400 block of NW 200th St,0,1,25.9549441,-80.2741001
+23,1290523, December 31,2018, Colorado, Denver, 2900 N Downing St,0,1,39.758583,-104.9730661
+24,1290134, December 31,2018, Missouri, Saint Joseph, N/A,0,1,37.09024,-95.712891
+25,1290813, December 31,2018, Virginia, Richmond, 3600 Kings Point Ct,2,0,37.5673817,-77.3759501
+26,1291724, December 31,2018, Florida, Fort Pierce, 100 block of N 29th St,0,0,33.4492739,-112.019227
+28,1288883, December 31,2018, Pennsylvania, Waterville, Church St,1,0,44.4759473,-73.2124828
+29,1289893, December 31,2018, South Carolina, Columbia, 300 block of S Highland Forest Dr,1,0,34.0928999,-80.9988734
+30,1290256, December 31,2018, Texas, Fort Worth, 2900 Renaissance Dr,0,1,32.7108807,-97.2831581
+31,1289282, December 31,2018, Missouri, Springfield, 500 block of S New Ave,0,0,37.2055851,-93.3055119
+32,1292746, December 31,2018, Ohio, Cleveland, W St Clair Ave and W 9th St,0,1,41.4987437,-81.7003128
+33,1290238, December 31,2018, Kentucky, Hopkinsville, 101 Talbert Dr,0,1,36.8828313,-87.4830306
+34,1289274, December 31,2018, New York, Nyack, 108 Main St,0,0,38.8019848,-90.6266517
+35,1290226, December 31,2018, Louisiana, New Orleans, 4700 block of Piety St,0,1,29.9943241,-90.0333592
+36,1290221, December 31,2018, Oklahoma, Tulsa, N/A,0,0,37.09024,-95.712891
+37,1292736, December 31,2018, South Carolina, Burton, Milledge Village Rd,0,0,32.4303147,-80.7381162
+38,1289359, December 31,2018, Pennsylvania, Philadelphia, 4200 block of N Broad St,0,0,40.0173835,-75.1498637
+39,1289354, December 31,2018, Connecticut, Hartford, 942 Main St,0,2,41.7678325,-72.672893
+40,1289335, December 31,2018, Louisiana, New Orleans, 2500 block of Gravier St,1,0,29.9594665,-90.0889427
+41,1291538, December 31,2018, Pennsylvania, Douglassville, 2300 block of E Main St,0,0,33.4161731,-111.7814978
+42,1290194, December 31,2018, Missouri, Saint Louis, Davis St and Virginia Ave,1,0,36.854031,-76.1706009
+43,1290183, December 31,2018, West Virginia, Charleston, N/A,0,0,37.09024,-95.712891
+44,1289279, December 31,2018, Alabama, Birmingham, 3205 Birmingport Rd,1,1,33.531421,-86.941832
+45,1290186, December 31,2018, New York, Buffalo, Cambridge Ave,0,1,41.064849,-80.646119
+46,1291341, December 31,2018, Michigan, Benton Harbor, 2086 Colfax Ave,1,0,42.080394,-86.45643
+47,1290159, December 31,2018, Louisiana, New Iberia, Ann St and 20 Arpent Rd,0,1,29.9945391,-91.8154363
+48,1289238, December 31,2018, Florida, Miami Gardens, 4400 block of NW 200th St,0,1,25.9549441,-80.2741001
+49,1290523, December 31,2018, Colorado, Denver, 2900 N Downing St,0,1,39.758583,-104.9730661
+50,1290134, December 31,2018, Missouri, Saint Joseph, N/A,0,1,37.09024,-95.712891
+51,1290813, December 31,2018, Virginia, Richmond, 3600 Kings Point Ct,2,0,37.5673817,-77.3759501
+52,1291724, December 31,2018, Florida, Fort Pierce, 100 block of N 29th St,0,0,33.4492739,-112.019227

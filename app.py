@@ -18,19 +18,24 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///gunviolence_db.sqlite"
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:@localhost:5433/gunviolence_db"
-db = SQLAlchemy(app)
+# app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost:5432/gunviolence_db_sc"
+# db = SQLAlchemy(app)
 
-# reflect an existing database into a new model
-Base = automap_base()
-# reflect the tables
-Base.prepare(db.engine, reflect=True)
+# # reflect an existing database into a new model
+# Base = automap_base()
+# # reflect the tables
+# Base.prepare(db.engine, reflect=True)
 
-# Save references to each table
-states_metadata = Base.classes.gunviolence_table
+# # Save references to each table
+# states_metadata = Base.classes.gunviolence_table
 # states = Base.classes.states
 
+# ABLE TO QUERY TABLE, CODE IS WORKING. JUST ADD CSV AND CONVERT TO JSON
+# DATABASE NAME = gunviolence_db_sc
+# TABLE IN DATABASE = gunviolence_table
+engine = create_engine("postgresql://postgres:postgres@localhost:5432/gunviolence_db_sc")
+df_gun_violence = pd.read_sql('select * from gunviolence_table', engine)
+print(len(df_gun_violence))
 
 @app.route("/")
 def index():
@@ -42,40 +47,40 @@ def list_states():
     """Return a list of states."""
 
     # Use Pandas to perform the sql query
-    stmt = db.session.query(states).statement # change to states_metadata
+    stmt = db.session.query(gunviolence_table).statement
     df = pd.read_sql_query(stmt, db.session.bind)
 
     # Return a list of the column names (state names)
     return jsonify(list(df.columns)[2:])
 
-# METADATA TABLE: Create a summary of gun violence by state. Take relvant information only
+# METADATA TABLE: Create a summary of gun violence by state. Take relevant information only
 # Eg.: exclude "line_number" and "operations" data. 
 
 @app.route("/metadata/<state>")
-def state_metadata(state):
+def gunviolence_metadata(state):
     """Return the gun violence data summary (metadata) for a given state."""
     sel = [
-        states_metadata.State,
-        states_metadata.year,
-        states_metadata.Incident_ID,
-        states_metadata.Number_Killed,
-        states_metadata.Number_Injured,
+        gunviolence_table.State,
+        gunviolence_table.year,
+        gunviolence_table.Incident_ID,
+        gunviolence_table.Number_Killed,
+        gunviolence_table.Number_Injured,
     ]
 
-    results = db.session.query(*sel).filter(states_metadata.State == state).all()
+    results = db.session.query(*sel).filter(gunviolence_table.State == state).all()
     print('results:', results)
 
     # Create a dictionary entry for each row of gun violence summary data (metadata)
-    state_metadata = {}
+    gunviolence_metadata = {}
     for result in results:
         print(result)
-        state_metadata["year"] = result[0]
-        state_metadata["Incident_ID"].count = result[1]
-        state_metadata["Number_Killed"].sum = result[2]
-        state_metadata["Number_Injured"].sum = result[3]
+        gunviolence_metadata["year"] = result[0]
+        gunviolence_metadata["Incident_ID"].count = result[1]
+        gunviolence_metadata["Number_Killed"].sum = result[2]
+        gunviolence_metadata["Number_Injured"].sum = result[3]
 
-    print(state_metadata)
-    return jsonify(state_metadata)
+    print(gunviolence_metadata)
+    return jsonify(gunviolence_metadata)
 
 # Create app route to pull all data points for charts.
 @app.route("/states/<state>")
@@ -85,7 +90,7 @@ def states(state):
     df = pd.read_sql_query(stmt, db.session.bind)
 
     # Filter the data based on the state
-    state_data = df.loc[df[state], ["incident_id", "incident_date", "city_or_county", "number_killed", "number_injured", state]]
+    state_data = df.loc[df[state], ["incident_id", "incident_date", "city_or_county", "number_killed", "number_injured", State]]
 
     # Sort by count of city_or_county (highest counts are cities/counties that recorded the most incidents).
     state_data.sort_values(by=city_or_county.count, ascending=False, inplace=True)
