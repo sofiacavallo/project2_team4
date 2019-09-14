@@ -13,26 +13,10 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-
 #################################################
 # Database Setup
 #################################################
 
-# app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost:5432/gunviolence_db_sc"
-# db = SQLAlchemy(app)
-
-# # reflect an existing database into a new model
-# Base = automap_base()
-# # reflect the tables
-# Base.prepare(db.engine, reflect=True)
-
-# # Save references to each table
-# states_metadata = Base.classes.gunviolence_db
-# states = Base.classes.states
-
-# ABLE TO QUERY TABLE, CODE IS WORKING. JUST ADD CSV AND CONVERT TO JSON
-# DATABASE NAME = gunviolence_db_sc
-# TABLE IN DATABASE = gunviolence_db
 engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
 df_gun_violence = pd.read_sql('select * from gunviolence_db', engine)
 print(len(df_gun_violence))
@@ -51,27 +35,16 @@ def list_states():
     df_gun_violence = pd.read_sql('select * from gunviolence_db', engine)
     
     stmt = list(df_gun_violence['State'].unique())
-    # df = pd.read_sql_query(stmt, db.session.bind)
 
     # Return a list of the column names (state names)
     return jsonify(stmt)
 
-# METADATA TABLE: Create a summary of gun violence by state. Take relevant information only
-# Eg.: exclude "line_number" and "operations" data. 
-
+# METADATA TABLE: Create a summary of gun violence by state. 
 @app.route("/metadata/<state>")
 def gunviolence_metadata(state):
     """Return the gun violence data summary (metadata) for a given state."""
-    # sel = [
-    #     gunviolence_db.State,
-    #     gunviolence_db.year,
-    #     gunviolence_db.Incident_ID,
-    #     gunviolence_db.Number_Killed,
-    #     gunviolence_db.Number_Injured,
-    # ]
 
-    # results = db.session.query(*sel).filter(gunviolence_db.State == state).all()
-    engine = create_engine("sqlite:///gunviolence_db.sqlite")
+    engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
     df_gun_violence = pd.read_sql(f"select * from gunviolence_db where State = '{state}' ", engine)
     results = [
         list(df_gun_violence['State']),
