@@ -32,13 +32,12 @@ def list_states():
 
     # Use Pandas to perform the sql query
     engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
-    df_gunviolence = pd.read_sql('select State from gunviolence_db', engine)
+    df_gunviolence_states = pd.read_sql('select State from gunviolence_db', engine)
     
-    stmt = list(df_gunviolence.sort_values(by=['State'])['State'].unique())
+    stmt = list(df_gunviolence_states.sort_values(by=['State'])['State'].unique())
 
     # Return a list of the column names (state names)
     return jsonify(stmt)
-    return stmt
 
 # METADATA TABLE: Create a summary of gun violence by state. 
 @app.route("/metadata/<state>")
@@ -64,24 +63,21 @@ def gunviolence_metadata(state):
 @app.route("/states/<state>")
 def states(state):
     """Return `incident_ids`, `incident_dates`, `city_or_county`, `number_killed` and `number_injured`."""
-    stmt = db.session.query(states).statement
-    df = pd.read_sql_query(stmt, db.session.bind)
 
     # Filter the data based on the state
-    state_data = df.loc[df[state], ["incident_id", "incident_date", "city_or_county", "number_killed", "number_injured", State]]
-
-    # Sort by count of city_or_county (highest counts are cities/counties that recorded the most incidents).
-    state_data.sort_values(by=city_or_county.count, ascending=False, inplace=True)
+    df_gunviolence_bystate = pd.read_sql(f"select * from gunviolence_db where State = '{state}' ", engine)
 
     # Format the data to send as json
     data = {
-        "incident_ids": state_data.incident_id.tolist(),
-        "incident_dates": state_data.incident_date.tolist(),
-        "cities_or_counties": state_data.city_or_county.tolist(),
-        "number_killed": state_data.number_killed.tolist(),
-        "number_injured": state_data.number_injured.tolist()
+        "incident_ids": df_gunviolence_bystate["Incident ID"].tolist(),
+        "incident_dates": df_gunviolence_bystate["Incident Date"].tolist(),
+        "cities_or_counties": df_gunviolence_bystate["City Or County"].tolist(),
+        "number_killed": df_gunviolence_bystate["Killed"].tolist(),
+        "number_injured": df_gunviolence_bystate["Injured"].tolist()
     }
     return jsonify(data)
+    
+#states('Wisconsin')
 
 if __name__ == "__main__":
     app.run()
