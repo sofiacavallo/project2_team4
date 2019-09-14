@@ -18,8 +18,8 @@ app = Flask(__name__)
 #################################################
 
 engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
-df_gun_violence = pd.read_sql('select * from gunviolence_db', engine)
-print(len(df_gun_violence))
+df_gunviolence = pd.read_sql('select * from gunviolence_db', engine)
+print(len(df_gunviolence))
 
 @app.route("/")
 def index():
@@ -32,12 +32,13 @@ def list_states():
 
     # Use Pandas to perform the sql query
     engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
-    df_gun_violence = pd.read_sql('select * from gunviolence_db', engine)
+    df_gunviolence = pd.read_sql('select State from gunviolence_db', engine)
     
-    stmt = list(df_gun_violence['State'].unique())
+    stmt = list(df_gunviolence.sort_values(by=['State'])['State'].unique())
 
     # Return a list of the column names (state names)
     return jsonify(stmt)
+    return stmt
 
 # METADATA TABLE: Create a summary of gun violence by state. 
 @app.route("/metadata/<state>")
@@ -45,36 +46,18 @@ def gunviolence_metadata(state):
     """Return the gun violence data summary (metadata) for a given state."""
 
     engine = create_engine("sqlite:///db/gunviolence_db.sqlite")
-    df_gun_violence = pd.read_sql(f"select * from gunviolence_db where State = '{state}' ", engine)
-    results = [
-        list(df_gun_violence['State']),
-        list(df_gun_violence.year),
-        list(df_gun_violence['Incident ID'])
-    ]
-    print('results:', results)
-
-    # [['Wisconsin', 'Wisconsin', 'Wisconsin', 'Wisconsin', 'Wisconsin'], ['2018', '2018', '2018', '2018', '2018'], ['1289543', '1300872', '1290535', '1289545', '1292121']]
-
-
-# WORK IN JUPYTER NOTEBOOK TO CREATE JSON 
+    df_gunviolence_metadata = pd.read_sql(f"select * from gunviolence_db where State = '{state}' ", engine)
+    df_gunviolence_metadata["Killed"] = df_gunviolence_metadata["Killed"].astype(int)
+    df_gunviolence_metadata["Injured"] = df_gunviolence_metadata["Injured"].astype(int)
+            
     # Create a dictionary entry for each row of gun violence summary data (metadata)
-    # { 'year' : 2018
-    #   'incident_counts': "IncidentID".count,
-    #   'number_killed': " " 
-        ''
-    # }
+    gunviolence_metadata = {
+        "Incident_ID": df_gunviolence_metadata['Incident ID'].value_counts().sum(), 
+        "Number_Killed": df_gunviolence_metadata[df_gunviolence_metadata["Killed"] > 0]["Killed"].value_counts().sum(),
+        "Number_Injured": df_gunviolence_metadata[df_gunviolence_metadata["Injured"] > 0]["Injured"].value_counts().sum()
+    }
     
-    
-    gunviolence_metadata = {}
-    for result in results:
-        print(result)
-        # 
-        gunviolence_metadata["year"] = result[0]
-        gunviolence_metadata["Incident_ID"] = result[1]
-        # gunviolence_metadata["Number_Killed"].sum = result[2]
-        # gunviolence_metadata["Number_Injured"].sum = result[3]
-
-    # print(gunviolence_metadata)
+    print(gunviolence_metadata)
     return jsonify(gunviolence_metadata)
 
 # Create app route to pull all data points for charts.
