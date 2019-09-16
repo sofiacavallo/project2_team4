@@ -14,72 +14,83 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 
-# #################################################
-# # Database Setup
-# #################################################
-# app.config["SQLALCHEMY_TRACK_MODIFICATION"] = False
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/gva1.sqlite"
-# db = SQLAlchemy(app)
+#################################################
+# Database Setup
+#################################################
 
-# # reflect an existing database into a new model
-# Base = automap_base()
-# # reflect the tables
-# Base.prepare(db.engine, reflect=True)
-
-# # Save references to each table
-# Samples_Metadata = Base.classes.gva1
-# Samples = Base.classes.gva1
-
+# DATABASE NAME = gunviolence_db_sc
+# TABLE IN DATABASE = gunviolence_db
+engine = create_engine("sqlite:///db/gva1.sqlite")
+df_gun_violence = pd.read_sql('select * from gv1', engine)
+print(len(df_gun_violence))
 
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
 
+@app.route("/states")
+def list_states():
+    """Return a list of states."""
 
-# @app.route("/samples")
-# def names():
-#     """Return a list of sample names."""
+    # Use Pandas to perform the sql query
+    engine = create_engine("sqlite:///db/gva1.sqlite")
+    df_gun_violence = pd.read_sql('select * from gv1', engine)
+    
+    stmt = list(df_gun_violence['state'].unique())
+    # df = pd.read_sql_query(stmt, db.session.bind)
 
-#     # Use Pandas to perform the sql query
-#     stmt = db.session.query(Samples).statement
-#     df = pd.read_sql_query(stmt, db.session.bind)
+    # Return a list of the column names (state names)
+    return jsonify(stmt)
 
-#     # Return a list of the column names (sample names)
-#     return jsonify(list(df.columns)[2:])
+# METADATA TABLE: Create a summary of gun violence by state. Take relevant information only
+# Eg.: exclude "line_number" and "operations" data. 
 
+@app.route("/metadata/<state>")
+def gunviolence_metadata(state):
+    """Return the gun violence data summary (metadata) for a given state."""
+    # results = db.session.query(*sel).filter(gunviolence_db.State == state).all()
+    engine = create_engine("sqlite:///db/gva1.sqlite")
+    df_gun_violence = pd.read_sql(f"select * from gv1 where state = '{state}' ", engine)
+    results = [
+        list(df_gun_violence['state']),
+        list(df_gun_violence.date),
+        list(df_gun_violence['city_or_county'])
+    ]
+    gunviolence_metadata = {}
+    for result in results:
+       # print(result)
+        print('1')
+        gunviolence_metadata["date"] = result[1]
+        gunviolence_metadata["city"] = result[2]
+        # gunviolence_metadata["Number_Killed"].sum = result[2]
+        # gunviolence_metadata["Number_Injured"].sum = result[3]
 
-# @app.route("/metadata/<sample>")
-# def sample_metadata(sample):
-#     """Return the MetaData for a given sample."""
-#     sel = [
-#         Samples_Metadata.date,
-#         Samples_Metadata.state,
-#         Samples_Metadata.city_or_county,
-#         Samples_Metadata.killed,
-#         Samples_Metadata.injured,
-#         Samples_Metadata.district,
-#         Samples_Metadata.latitude,
-#         Samples_Metadata.longitude
-#     ]
+    # print(gunviolence_metadata)
+    return jsonify(gunviolence_metadata)
 
-#     results = db.session.query(*sel).filter(Samples_Metadata.sample == sample).all()
+# Create app route to pull all data points for charts.
+@app.route("/states/<state>")
+def states(state):
+    """Return `incident_ids`, `date`, `city_or_county`, `killed` and `injured`."""
+    stmt = gv1.session.query('state').statement
+    df = pd.read_sql_query(stmt, db.session.bind)
 
-#     # Create a dictionary entry for each row of metadata information
-#     sample_metadata = {}
-#     for result in results:
-#         sample_metadata["Date"] = result[0]
-#         sample_metadata["State"] = result[1]
-#         sample_metadata["City or County"] = result[2]
-#         sample_metadata["# Killed"] = result[3]
-#         sample_metadata["# Injured"] = result[4]
-#         sample_metadata["District"] = result[5]
-#         sample_metadata["Latitude"] = result[6]
-#         sample_metadata["Longitude"] = result[7]
+    # Filter the data based on the state
+    state_data = df.loc[df[state], ["incident_id", "date", "city_or_county", "killed", "injured", state]]
 
-#     print(sample_metadata)
-#     return jsonify(sample_metadata)
+    # Sort by count of city_or_county (highest counts are cities/counties that recorded the most incidents).
+    state_data.sort_values(by=city_or_county.count, ascending=False, inplace=True)
 
+    # Format the data to send as json
+    data = {
+        "incident_ids": state_data.incident_id.tolist(),
+        "incident_dates": state_data.date.tolist(),
+        "cities_or_counties": state_data.city_or_county.tolist(),
+        "number_killed": state_data.killed.tolist(),
+        "number_injured": state_data.injured.tolist()
+    }
+    return jsonify(data)
 
 if __name__ == "__main__":
     app.run()
