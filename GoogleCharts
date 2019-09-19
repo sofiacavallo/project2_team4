@@ -17,6 +17,7 @@
 
         // Create the data table.
         // Placeholder data until I figure out how to connect to our data
+        // think this could be the key https://pythonspot.com/flask-json-and-the-google-charts-api/
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'State');
         data.addColumn('number', 'Incidents');
