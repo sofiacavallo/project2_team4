@@ -1,0 +1,851 @@
+,Incident ID,Incident Date,year,State,City Or County,Address,Killed,Injured,Operations
+1,1506655,September 18,2019,Indiana,Fort Wayne,4000 block of Reed St,0,3,"View Incident
+View Source"
+2,1506387,September 18,2019,Pennsylvania,Pittsburgh,Cordell Pl,0,1,"View Incident
+View Source"
+3,1506592,September 18,2019,Alabama,Scottsboro,102 E Laurel St,0,1,"View Incident
+View Source"
+4,1506556,September 18,2019,Texas,San Antonio,La Barca Dr,0,1,"View Incident
+View Source"
+5,1506539,September 18,2019,Michigan,Marshall,I-94,0,0,"View Incident
+View Source"
+6,1506412,September 18,2019,Maryland,Pasadena,1400 block of Orr Ct,1,0,"View Incident
+View Source"
+7,1506460,September 18,2019,Georgia,Snellville,Stone Mountain Hwy and Easy St,0,0,"View Incident
+View Source"
+8,1506454,September 18,2019,Florida,Sarasota,1200 block of Cornish Ct,1,0,"View Incident
+View Source"
+9,1506446,September 18,2019,Florida,Bradenton,3500 block of 39th St E,0,1,"View Incident
+View Source"
+10,1506430,September 18,2019,Florida,Lawtey,Co Rd 200A,0,1,"View Incident
+View Source"
+11,1506424,September 18,2019,Maryland,Baltimore,3400 block of Piedmont Ave,1,0,"View Incident
+View Source"
+12,1506407,September 18,2019,Florida,Boynton Beach,2300 Block of NW 17th Ave,0,2,"View Incident
+View Source"
+13,1506396,September 18,2019,District of Columbia,Washington,1500 block of Morris Rd SE,0,0,"View Incident
+View Source"
+14,1506384,September 18,2019,Pennsylvania,Philadelphia,400 block of Van Kirk St,1,0,"View Incident
+View Source"
+15,1506379,September 18,2019,New Jersey,Elizabeth,1037 Bond St,0,0,"View Incident
+View Source"
+16,1505550,September 17,2019,New York,Staten Island,20 Prince St,1,1,"View Incident
+View Source"
+17,1506299,September 17,2019,New York,Corona (Queens),59th St and Woodside Ave,0,1,"View Incident
+View Source"
+18,1506290,September 17,2019,New York,Syracuse,W Brighton Ave,0,1,"View Incident
+View Source"
+19,1506288,September 17,2019,Illinois,Quincy,1300 block of N 4th St,0,0,"View Incident
+View Source"
+20,1505511,September 17,2019,New York,Troy,111th St and Fourth Ave,1,0,"View Incident
+View Source"
+21,1506224,September 17,2019,Michigan,Detroit,6300 block of Memorial St,1,1,"View Incident
+View Source"
+22,1506241,September 17,2019,Michigan,Jackson,200 block of Third St,1,0,"View Incident
+View Source"
+23,1506234,September 17,2019,Tennessee,Nashville,904 26th Ave N,0,0,"View Incident
+View Source"
+24,1506232,September 17,2019,Michigan,Muskegon,Peck St and Irwin Ave,0,0,"View Incident
+View Source"
+25,1506227,September 17,2019,California,Tracy,Peony Dr and Windsong Dr,0,0,"View Incident
+View Source"
+27,1506221,September 17,2019,Kentucky,Louisville,32nd St and River Park Dr,0,2,"View Incident
+View Source"
+28,1506169,September 17,2019,California,Delano,10200 Casey Ave,1,0,"View Incident
+View Source"
+29,1506136,September 17,2019,Florida,Orlando,10400 Block of Kingbrook Ln,1,0,"View Incident
+View Source"
+30,1506128,September 17,2019,Maine,Rumford,97 Maine Avenue,0,1,"View Incident
+View Source"
+31,1506124,September 17,2019,Iowa,Davenport,6300 blocks of Appomattox Rd,0,0,"View Incident
+View Source"
+32,1506120,September 17,2019,Maryland,Baltimore,5400 block of Belair Rd,0,1,"View Incident
+View Source"
+33,1506023,September 17,2019,Virginia,Richmond,2900 block of Huntwick Ct,1,0,"View Incident
+View Source"
+34,1506054,September 17,2019,Florida,Milton,5988 US 90,1,0,"View Incident
+View Source"
+35,1506039,September 17,2019,Virginia,Richmond,2100 block of Accommodation St,0,2,"View Incident
+View Source"
+36,1506032,September 17,2019,Arizona,Phoenix,3402 W Campbell Ave,0,1,"View Incident
+View Source"
+37,1505998,September 17,2019,Tennessee,Memphis,Park Ave and Prescott Rd,0,0,"View Incident
+View Source"
+38,1505978,September 17,2019,Kansas,Topeka,341 SE Lawrence St,0,3,"View Incident
+View Source"
+39,1505974,September 17,2019,Iowa,Waterloo,W 6th St and Allen St,0,0,"View Incident
+View Source"
+40,1505964,September 17,2019,Tennessee,Memphis,3800 block of Maid Marian Ln,1,0,"View Incident
+View Source"
+41,1505942,September 17,2019,Georgia,Winder,985 Austin Rd,0,0,"View Incident
+View Source"
+42,1505939,September 17,2019,Colorado,Denver,Lackland Pl and Altura St,1,0,"View Incident
+View Source"
+43,1506669,September 17,2019,California,Willowbrook,12100 block of Wilmington Ave,1,0,"View Incident
+View Source"
+44,1505919,September 17,2019,District of Columbia,Washington,3900 block of Pennsylvania Avenue SE,0,1,"View Incident
+View Source"
+45,1505907,September 17,2019,Indiana,Hammond,7000 block of Lindberg Ave,1,0,"View Incident
+View Source"
+46,1505905,September 17,2019,South Carolina,Newberry,2000 block of Drayton St,1,0,"View Incident
+View Source"
+47,1505895,September 17,2019,Colorado,Colorado Springs,N Prospect St and E Boulder St,0,0,"View Incident
+View Source"
+48,1505851,September 17,2019,North Carolina,Greensboro,1700 block of Grove St,0,2,"View Incident
+View Source"
+49,1506617,September 17,2019,Pennsylvania,Erie,1800 block of German St,0,1,"View Incident
+View Source"
+50,1506609,September 17,2019,Pennsylvania,Erie,1800 block of Chestnut St,0,2,"View Incident
+View Source"
+51,1506613,September 17,2019,Illinois,Rockford,S 6th St and E State St,0,2,"View Incident
+View Source"
+53,1506382,September 17,2019,Pennsylvania,Philadelphia,5400 block of Stewart St,1,0,"View Incident
+View Source"
+54,1505801,September 17,2019,New Jersey,Newark,344 Hawthorne Ave,0,0,"View Incident
+View Source"
+55,1506589,September 17,2019,Arizona,Tucson,E Avenida Selva del Ocote and S Calle Joya de Ventura,1,0,"View Incident
+View Source"
+56,1505797,September 17,2019,New Jersey,Newark,14th Ave and S 16th St,0,1,"View Incident
+View Source"
+57,1505795,September 17,2019,New Jersey,Newark,200 block of West End Ave,0,1,"View Incident
+View Source"
+58,1506586,September 17,2019,Arkansas,Little Rock,5300 Baseline Rd,0,0,"View Incident
+View Source"
+59,1505760,September 17,2019,Oklahoma,Tulsa,E 21st St and I-44,0,0,"View Incident
+View Source"
+60,1506575,September 17,2019,New York,Bronx,3071 Park Ave,0,1,"View Incident
+View Source"
+61,1506553,September 17,2019,Wisconsin,Reeseville,Mud Lake Rd,1,0,"View Incident
+View Source"
+62,1506551,September 17,2019,North Carolina,Raleigh,Garner Rd and Martin Luther King Jr Blvd,0,1,"View Incident
+View Source"
+63,1506052,September 17,2019,New Mexico,Albuquerque,N Channel Trail,1,0,"View Incident
+View Source"
+64,1506280,September 17,2019,Texas,Garland,3510 Easton Meadows Dr,0,2,"View Incident
+View Source"
+65,1506519,September 17,2019,Michigan,Ypsilanti,500 W Cross St,1,1,"View Incident
+View Source"
+66,1506509,September 17,2019,Illinois,Chicago,9000 block of S Aberdeen St,0,0,"View Incident
+View Source"
+67,1506505,September 17,2019,Illinois,Chicago,10400 block of S Union Ave,0,1,"View Incident
+View Source"
+68,1506500,September 17,2019,Illinois,Chicago,700 block of N Central Ave,0,1,"View Incident
+View Source"
+69,1506493,September 17,2019,Georgia,Augusta,1725 Marvin Griffin Rd,0,0,"View Incident
+View Source"
+70,1506458,September 17,2019,Illinois,Chicago,7000 block of S Saint Lawrence Ave,0,1,"View Incident
+View Source"
+71,1506486,September 17,2019,Georgia,Rome,Sam Harris Rd,0,0,"View Incident
+View Source"
+72,1506481,September 17,2019,Illinois,Chicago,700 block of W 73rd St,0,1,"View Incident
+View Source"
+73,1506475,September 17,2019,Georgia,South Fulton,400 block of Espana St,0,0,"View Incident
+View Source"
+74,1506468,September 17,2019,Illinois,Chicago,2600 block of W Lithuanian Plaza Ct,0,1,"View Incident
+View Source"
+75,1506470,September 17,2019,Georgia,Douglasville,7060 Concourse Pkwy,0,1,"View Incident
+View Source"
+76,1506456,September 17,2019,Florida,Saint Petersburg,Queensboro Ave S and Yale St,1,0,"View Incident
+View Source"
+77,1506442,September 17,2019,Florida,Bradenton,3212 1st St,1,0,"View Incident
+View Source"
+79,1506422,September 17,2019,Maryland,Baltimore,500 block of S Smallwood St,0,1,"View Incident
+View Source"
+80,1506419,September 17,2019,Maryland,Baltimore,600 block of Winston Ave,0,2,"View Incident
+View Source"
+81,1506417,September 17,2019,New York,Oceanside,Columbus Ave,1,0,"View Incident
+View Source"
+82,1506135,September 17,2019,District of Columbia,Washington,300 Indiana Ave,0,0,"View Incident
+View Source"
+83,1506391,September 17,2019,Ohio,Akron,985 Gorge Blvd,0,0,"View Incident
+View Source"
+84,1506380,September 17,2019,New Jersey,Elizabeth,400 block of Irvington Ave,0,1,"View Incident
+View Source"
+85,1505516,September 17,2019,New Jersey,Paterson,49 Sandy Ct,0,0,"View Incident
+View Source"
+86,1506348,September 17,2019,Alabama,Mobile,557 Azalea Rd,1,0,"View Incident
+View Source"
+87,1506336,September 17,2019,Mississippi,Hattiesburg,400 block of Magnolia Ave,1,0,"View Incident
+View Source"
+88,1506327,September 17,2019,Missouri,Saint Louis (Des Peres),80 W County Center Dr,0,0,"View Incident
+View Source"
+89,1506325,September 16,2019,Massachusetts,Boston,800 Morrissey Blvd,1,0,"View Incident
+View Source"
+90,1505434,September 16,2019,Montana,Missoula,Garland Dr,0,0,"View Incident
+View Source"
+91,1506320,September 16,2019,Arkansas,Fayetteville,E Brown Rd,0,0,"View Incident
+View Source"
+92,1505425,September 16,2019,New Hampshire,Manchester,Green St and Union St,0,0,"View Incident
+View Source"
+93,1505418,September 16,2019,Texas,Sanger,4300 block of View Rd,1,0,"View Incident
+View Source"
+94,1505349,September 16,2019,Missouri,Saint Louis,400 block of Thrift Ave,1,0,"View Incident
+View Source"
+95,1506313,September 16,2019,Missouri,Monett,1 David Sippy Dr,1,0,"View Incident
+View Source"
+96,1505397,September 16,2019,California,Apple Valley,20000 block of Sitting Bull Rd,0,1,"View Incident
+View Source"
+97,1505383,September 16,2019,California,Fresno,2700 block of W Fairmont Ave,0,1,"View Incident
+View Source"
+98,1506304,September 16,2019,Alabama,Montgomery,3600 block of Debby Dr,0,3,"View Incident
+View Source"
+99,1505364,September 16,2019,Massachusetts,Springfield,Mill St,0,1,"View Incident
+View Source"
+100,1505346,September 16,2019,Missouri,Saint Louis,N Grand Blvd and Kossuth Ave,0,2,"View Incident
+View Source"
+101,1505328,September 16,2019,Wisconsin,Milwaukee,10300 block of West Fond du Lac Ave,0,2,"View Incident
+View Source"
+102,1506295,September 16,2019,New York,Ithaca,Chestnut St,0,0,"View Incident
+View Source"
+103,1505165,September 16,2019,Florida,Valrico,2504 Siena Way,1,1,"View Incident
+View Source"
+105,1505300,September 16,2019,Michigan,Detroit,6500 block of Wagner St,0,1,"View Incident
+View Source"
+106,1505277,September 16,2019,Nevada,Las Vegas,4400 Thompson Circle,2,0,"View Incident
+View Source"
+107,1505291,September 16,2019,Kansas,Topeka,N/A,0,1,"View Incident
+View Source"
+108,1505286,September 16,2019,Connecticut,Ansonia,Fourth St and Fifth St,0,1,"View Incident
+View Source"
+109,1505319,September 16,2019,Alabama,Tuscaloosa,17th St and 33rd Ave,1,1,"View Incident
+View Source"
+110,1506267,September 16,2019,California,Yuba City,CA-99 and Franklin Rd,0,1,"View Incident
+View Source"
+111,1505282,September 16,2019,New York,New York (Manhattan),Mt Morris Park W and W 122nd St,0,1,"View Incident
+View Source"
+112,1506217,September 16,2019,Michigan,Detroit,3400 block of Fischer St,0,1,"View Incident
+View Source"
+113,1505389,September 16,2019,California,San Diego,3300 block of National Ave,0,1,"View Incident
+View Source"
+114,1504844,September 16,2019,California,San Jose,Stewart Ave,1,0,"View Incident
+View Source"
+115,1505343,September 16,2019,Kansas,Kansas City,2500 block of N 73rd Pl,0,2,"View Incident
+View Source"
+116,1506230,September 16,2019,Florida,Spring Hill,220 Spring Haven Loop,0,0,"View Incident
+View Source"
+117,1505265,September 16,2019,Michigan,Benton Harbor,1351 Agard Ave,0,1,"View Incident
+View Source"
+118,1506215,September 16,2019,California,Merced,Hwy 59,0,1,"View Incident
+View Source"
+119,1505315,September 16,2019,Michigan,Garden City,Belton St,0,2,"View Incident
+View Source"
+120,1504839,September 16,2019,California,Santa Ana,1500 block of N Bristol St,1,0,"View Incident
+View Source"
+121,1505211,September 16,2019,Colorado,Wheat Ridge,W 38th Ave and Ames St,0,2,"View Incident
+View Source"
+122,1505547,September 16,2019,Ohio,Toledo,1500 block of Elm St,0,2,"View Incident
+View Source"
+123,1505161,September 16,2019,Texas,Dallas,7918 Lake June Rd,0,1,"View Incident
+View Source"
+124,1506132,September 16,2019,Florida,Opa Locka,NW 22nd Ave and NW 139th St,0,2,"View Incident
+View Source"
+125,1506118,September 16,2019,Massachusetts,Springfield,900 State Street,0,0,"View Incident
+View Source"
+126,1506116,September 16,2019,Florida,Leesburg,900 Co Rd 468,1,0,"View Incident
+View Source"
+127,1506109,September 16,2019,Florida,Mount Dora,US 441,0,0,"View Incident
+View Source"
+128,1505140,September 16,2019,Michigan,Sterling Heights,40000 block of Bonaparte Ave,0,1,"View Incident
+View Source"
+129,1506093,September 16,2019,Nevada,Las Vegas,5346 E Lake Mead Blvd,0,1,"View Incident
+View Source"
+131,1506079,September 16,2019,Nevada,Las Vegas,1000 block of Sonora Hill Ct,0,0,"View Incident
+View Source"
+132,1504742,September 16,2019,Tennessee,Elizabethton,200 block of Academy St,1,0,"View Incident
+View Source"
+133,1506072,September 16,2019,Virginia,Dumfries,16900 block of Porters Inn Dr,1,0,"View Incident
+View Source"
+134,1505120,September 16,2019,Virginia,Newport News,4300 block of Newsome Dr,0,1,"View Incident
+View Source"
+135,1506042,September 16,2019,Virginia,Richmond,2000 block of Creighton Rd,0,1,"View Incident
+View Source"
+136,1506034,September 16,2019,Arizona,Sierra Vista,500 block of Coronado Dr,0,1,"View Incident
+View Source"
+137,1506030,September 16,2019,Virginia,Richmond,2300 block of Selden St,1,0,"View Incident
+View Source"
+138,1505115,September 16,2019,Illinois,Urbana,101 W Windsor Rd,0,0,"View Incident
+View Source"
+139,1505103,September 16,2019,Illinois,Hoopeston,W Penn St and S 1st Ave,0,0,"View Incident
+View Source"
+140,1505061,September 16,2019,Virginia,Hampton,100 Ireland St,1,0,"View Incident
+View Source"
+141,1505063,September 16,2019,Texas,Hockley,22422 FM 2920,1,0,"View Incident
+View Source"
+142,1505072,September 16,2019,Texas,Houston,10700 block of S Gessner,1,0,"View Incident
+View Source"
+143,1506008,September 16,2019,Rhode Island,Providence,Simmons Street,0,1,"View Incident
+View Source"
+144,1505069,September 16,2019,Virginia,Newport News,13377 Jefferson Ave,1,0,"View Incident
+View Source"
+145,1505501,September 16,2019,Virginia,Newport News,600 block of Dresden Dr,1,1,"View Incident
+View Source"
+146,1505049,September 16,2019,South Carolina,Camden,St Paul Rd,0,1,"View Incident
+View Source"
+147,1505030,September 16,2019,Virginia,Waynesboro,900 Augusta Farms Rd,0,0,"View Incident
+View Source"
+148,1505019,September 16,2019,Virginia,Virginia Beach,600 block of Liberty Bell Rd,0,0,"View Incident
+View Source"
+149,1505970,September 16,2019,Georgia,Hampton,Carl Parker Rd,3,0,"View Incident
+View Source"
+150,1505051,September 16,2019,Tennessee,Memphis,Midland Ave and Marianna St,1,0,"View Incident
+View Source"
+151,1505556,September 16,2019,District of Columbia,Washington,2200 block of Savannah Terrace SE,1,2,"View Incident
+View Source"
+152,1505354,September 16,2019,Wyoming,Cheyenne,3436 E. 11th St,2,2,"View Incident
+View Source"
+153,1506666,September 16,2019,California,Los Angeles,300 block of N Stanley Ave,0,2,"View Incident
+View Source"
+154,1505926,September 16,2019,South Carolina,Piedmont,N/A,0,0,"View Incident
+View Source"
+155,1505921,September 16,2019,South Carolina,Myrtle Beach,Osceola St,0,0,"View Incident
+View Source"
+157,1505921,September 16,2019,South Carolina,Myrtle Beach,Osceola St,0,0,"View Incident
+View Source"
+158,1505917,September 16,2019,South Carolina,Myrtle Beach,1708 S Ocean Blvd,0,0,"View Incident
+View Source"
+159,1505914,September 16,2019,South Carolina,Simpsonville,200 Bryson Dr,0,1,"View Incident
+View Source"
+160,1505912,September 16,2019,South Carolina,Lexington,McLee Rd,0,0,"View Incident
+View Source"
+161,1505910,September 16,2019,South Carolina,Charleston,1900 Hazelwood Dr,0,1,"View Incident
+View Source"
+162,1504775,September 16,2019,Georgia,Conyers,1316 White Oak Ct SE,3,0,"View Incident
+View Source"
+163,1505897,September 16,2019,Ohio,Youngstown,2600 block of Oakwood Ave,0,0,"View Incident
+View Source"
+164,1506643,September 16,2019,Ohio,Sandusky,500 block of McDonough St,0,0,"View Incident
+View Source"
+165,1505893,September 16,2019,Ohio,Youngstown,E Avondale Ave,0,0,"View Incident
+View Source"
+166,1505539,September 16,2019,Ohio,London,102 W High St,1,0,"View Incident
+View Source"
+167,1505866,September 16,2019,Ohio,Cleveland,1460 block of East Blvd,1,1,"View Incident
+View Source"
+168,1505506,September 16,2019,North Carolina,Fayetteville,WT Brown Dr and Martin Luther King Dr,0,1,"View Incident
+View Source"
+169,1504831,September 16,2019,Indiana,Indianapolis,4512 Jamestown Ct,0,1,"View Incident
+View Source"
+170,1505854,September 16,2019,Pennsylvania,Reading,100 block of N 11th St,0,1,"View Incident
+View Source"
+171,1505840,September 16,2019,North Carolina,High Point,Brentwood St and Nathan Hunt Dr,1,2,"View Incident
+View Source"
+172,1505857,September 16,2019,Minnesota,Minneapolis,4500 block of Aldrich Ave N,0,1,"View Incident
+View Source"
+173,1505845,September 16,2019,Pennsylvania,Wilkes Barre,Fellows Ave,0,0,"View Incident
+View Source"
+174,1505847,September 16,2019,North Carolina,Winston Salem (Winston-salem),5300 block of Nita Dr,0,2,"View Incident
+View Source"
+175,1505814,September 16,2019,North Carolina,Charlotte,Alice Ave,0,2,"View Incident
+View Source"
+176,1504878,September 16,2019,Pennsylvania,Bethlehem,E Morton St and New St,0,0,"View Incident
+View Source"
+177,1505799,September 16,2019,Texas,Houston,20000 block of Castlegreen Dr,0,0,"View Incident
+View Source"
+178,1505784,September 16,2019,New Jersey,Jersey City,Astor Pl and Summit Ave,0,0,"View Incident
+View Source"
+179,1505777,September 16,2019,Wisconsin,Milwaukee,N 9th St and W Locust St,0,0,"View Incident
+View Source"
+180,1504866,September 16,2019,Wisconsin,Milwaukee,S 10th St and W Windlake Ave,0,1,"View Incident
+View Source"
+181,1505768,September 16,2019,Wisconsin,Milwaukee,N/A,0,1,"View Incident
+View Source"
+183,1505764,September 16,2019,Texas,San Antonio,US 281,0,0,"View Incident
+View Source"
+184,1505667,September 16,2019,Oklahoma,Oklahoma City,SE 59th St and S Sunnylane Rd,0,1,"View Incident
+View Source"
+185,1504828,September 16,2019,New Jersey,Trenton,250 Chambers St,1,1,"View Incident
+View Source"
+186,1505707,September 16,2019,Kentucky,London,N/A,0,0,"View Incident
+View Source"
+187,1505447,September 16,2019,Kentucky,Louisville,100 block of Charter Oaks Dr,1,0,"View Incident
+View Source"
+188,1504855,September 16,2019,California,Lemon Grove,1900 block of Washington St,0,1,"View Incident
+View Source"
+189,1504815,September 16,2019,North Carolina,Charlotte,Rachel St,1,0,"View Incident
+View Source"
+190,1505664,September 16,2019,Oklahoma,Yukon,I-40 and N Gregory Rd,0,1,"View Incident
+View Source"
+191,1505360,September 16,2019,Illinois,Urbana,1800 block of S Cottage Grove Ave,0,1,"View Incident
+View Source"
+192,1506549,September 16,2019,Illinois,Chicago,7500 block of S Halsted St,0,0,"View Incident
+View Source"
+193,1504791,September 16,2019,Indiana,South Bend,1900 block of Lincoln Way W,0,1,"View Incident
+View Source"
+194,1504765,September 16,2019,Illinois,Chicago,600 W 31st St,0,1,"View Incident
+View Source"
+195,1504709,September 16,2019,Maryland,Annapolis,100 block of Obery Ct,0,0,"View Incident
+View Source"
+196,1504753,September 16,2019,Arkansas,West Memphis,Broadway Ave and S 21st St,0,0,"View Incident
+View Source"
+197,1504738,September 16,2019,Illinois,Chicago,4000 block of N Narragansett Ave,1,0,"View Incident
+View Source"
+198,1504732,September 16,2019,Illinois,Chicago,700 block of N St Louis Ave,1,0,"View Incident
+View Source"
+199,1505578,September 16,2019,Delaware,Hartly,1900 block of Taraila Rd,0,0,"View Incident
+View Source"
+200,1505574,September 16,2019,Delaware,Dover,3100 block of Forrest Ave,0,1,"View Incident
+View Source"
+201,1505564,September 16,2019,Delaware,Wilmington,W 7th St and N Monroe St,0,1,"View Incident
+View Source"
+202,1506123,September 16,2019,Florida,Miami,I-95 and NW 151st St,0,1,"View Incident
+View Source"
+203,1505560,September 16,2019,District of Columbia,Washington,4000 block of 4th St NW,0,0,"View Incident
+View Source"
+204,1505566,September 16,2019,Delaware,Wilmington,1000 block of N Van Buren St,1,0,"View Incident
+View Source"
+205,1505562,September 16,2019,Maryland,Capitol Heights,4100 block of Byers St,1,0,"View Incident
+View Source"
+206,1505553,September 16,2019,Illinois,Chicago,N Caldwell Ave and Touhy Ave,1,0,"View Incident
+View Source"
+207,1505191,September 16,2019,Ohio,Dayton,800 block of Danner Ave,0,1,"View Incident
+View Source"
+209,1505523,September 16,2019,Ohio,Cincinnati,3200 block of Gilbert Rd,0,0,"View Incident
+View Source"
+210,1505185,September 16,2019,Ohio,Cleveland,3200 block of W 32nd St,1,0,"View Incident
+View Source"
+211,1505519,September 16,2019,New Jersey,Trenton,400 block of Lamberton St,0,1,"View Incident
+View Source"
+212,1505517,September 16,2019,New Jersey,Elizabeth,Willow Ct,0,1,"View Incident
+View Source"
+213,1506367,September 16,2019,Louisiana,New Orleans,7800 block of Coronet Ct,0,1,"View Incident
+View Source"
+214,1506360,September 16,2019,Alabama,Gadsden,919 Raley St,0,0,"View Incident
+View Source"
+215,1505486,September 16,2019,Kentucky,Louisville,3501 W Broadway,0,1,"View Incident
+View Source"
+216,1506357,September 16,2019,Alabama,Birmingham,Prosch Ave,0,0,"View Incident
+View Source"
+217,1506350,September 16,2019,Alabama,Birmingham (Homewood),600 Martin Luther King Jr Dr,0,1,"View Incident
+View Source"
+218,1505476,September 16,2019,Alabama,Tuscaloosa,2600 block of 25th St,1,0,"View Incident
+View Source"
+219,1505455,September 16,2019,Texas,Port Arthur,8149 Ninth Ave,0,1,"View Incident
+View Source"
+220,1506334,September 16,2019,Mississippi,Jackson,Winter St,0,1,"View Incident
+View Source"
+221,1505435,September 16,2019,Texas,Lufkin,6735 Ted Trout Dr,0,0,"View Incident
+View Source"
+222,1506332,September 16,2019,Missouri,Jefferson City,1228 E McCarty St,0,0,"View Incident
+View Source"
+223,1505423,September 15,2019,Montana,Bozeman,7 Tai Ln,0,0,"View Incident
+View Source"
+224,1505420,September 15,2019,New Hampshire,Keene,19 Ferry Brook Rd,0,2,"View Incident
+View Source"
+225,1505416,September 15,2019,Maine,Fryeburg,343 Portland St,0,0,"View Incident
+View Source"
+226,1504633,September 15,2019,Texas,San Antonio,800 block of S Salado St,0,1,"View Incident
+View Source"
+227,1504630,September 15,2019,Virginia,Richmond,300 block of E 12th St,1,0,"View Incident
+View Source"
+228,1504628,September 15,2019,Virginia,Richmond,6300 block of Jahnke Rd,1,0,"View Incident
+View Source"
+229,1505391,September 15,2019,Nebraska,Lincoln,N 27th St and Superior St,0,0,"View Incident
+View Source"
+230,1504623,September 15,2019,Pennsylvania,Philadelphia,3600 block of Wallace St,1,0,"View Incident
+View Source"
+231,1505369,September 15,2019,Massachusetts,Wareham,16 Shady Ln,0,0,"View Incident
+View Source"
+232,1505362,September 15,2019,Missouri,Saint Louis,2851 Cherokee St,0,1,"View Incident
+View Source"
+233,1505334,September 15,2019,Michigan,Detroit,N/A,1,0,"View Incident
+View Source"
+235,1504595,September 15,2019,Pennsylvania,Erie,2200 block of Wayne St,0,1,"View Incident
+View Source"
+236,1505308,September 15,2019,Michigan,Detroit,Abington Ave and Belton St,0,1,"View Incident
+View Source"
+237,1505306,September 15,2019,California,Gardena,Wilkie Ave and 134th St,0,1,"View Incident
+View Source"
+238,1504591,September 15,2019,Mississippi,Clarksdale,1201 N State St,1,0,"View Incident
+View Source"
+239,1505303,September 15,2019,Michigan,Detroit,19100 block of Pinehurst St,1,0,"View Incident
+View Source"
+240,1505302,September 15,2019,Kansas,Manhattan,1300 block of Fremont St,0,0,"View Incident
+View Source"
+241,1505295,September 15,2019,Michigan,Detroit,20535 Joy Rd,0,1,"View Incident
+View Source"
+242,1505293,September 15,2019,Connecticut,Bridgeport,N/A,0,1,"View Incident
+View Source"
+243,1504566,September 15,2019,Ohio,Youngstown,W Hylda Ave and Market St,0,1,"View Incident
+View Source"
+244,1504563,September 15,2019,Tennessee,Knoxville,Willow Ave and Patton St,0,1,"View Incident
+View Source"
+245,1506260,September 15,2019,New York,Schenectady,Central Ave,0,0,"View Incident
+View Source"
+246,1505270,September 15,2019,Michigan,Saginaw,2100 block of Robinwood Ave,0,1,"View Incident
+View Source"
+247,1504549,September 15,2019,Illinois,Springfield,600 block of S Walnut St,0,2,"View Incident
+View Source"
+248,1506245,September 15,2019,Florida,Quincy,1000 block of Brumby St,0,1,"View Incident
+View Source"
+249,1505268,September 15,2019,Michigan,Muskegon,80 W Southern Ave,0,1,"View Incident
+View Source"
+250,1504545,September 15,2019,Pennsylvania,Philadelphia,2300 block of McMichael St,0,1,"View Incident
+View Source"
+251,1505262,September 15,2019,Michigan,Flint,5000 block of Martin Luther King Ave,0,2,"View Incident
+View Source"
+252,1505257,September 15,2019,Michigan,Flint,2100 block of N Chevrolet Ave,1,1,"View Incident
+View Source"
+253,1505252,September 15,2019,Colorado,Denver,5500 block of N Carson Way,0,1,"View Incident
+View Source"
+254,1505250,September 15,2019,Michigan,Flint,N/A,0,1,"View Incident
+View Source"
+255,1504536,September 15,2019,New York,New York (Manhattan),W 145th St and Lenox Ave,0,2,"View Incident
+View Source"
+256,1504535,September 15,2019,District of Columbia,Washington,3900 block of Martin Luther King Jr Ave SW,0,0,"View Incident
+View Source"
+257,1505220,September 15,2019,Colorado,Denver,E Colfax Ave and Verbena St,1,0,"View Incident
+View Source"
+258,1504734,September 15,2019,Florida,Orlando,2400 block of Mace St,1,0,"View Incident
+View Source"
+259,1506185,September 15,2019,Tennessee,Memphis,National St,0,0,"View Incident
+View Source"
+261,1506185,September 15,2019,Tennessee,Memphis,National St,0,0,"View Incident
+View Source"
+262,1504307,September 15,2019,Arkansas,Little Rock,5103 Asher,1,1,"View Incident
+View Source"
+263,1505190,September 15,2019,California,La Mesa,University Ave and Marian St,0,0,"View Incident
+View Source"
+264,1505188,September 15,2019,Texas,Justin,100 block of N Snyder Ave,0,1,"View Incident
+View Source"
+265,1504198,September 15,2019,Pennsylvania,Pittsburgh,2600 block of Centre Ave,0,1,"View Incident
+View Source"
+266,1504797,September 15,2019,Kentucky,Owensboro,1100 block of W 9th St,0,1,"View Incident
+View Source"
+267,1504881,September 15,2019,Pennsylvania,Stroudsburg,103 Kraemer Ave,0,1,"View Incident
+View Source"
+268,1504479,September 15,2019,California,Ontario,13000 block of S Ontario Ave,1,0,"View Incident
+View Source"
+269,1504474,September 15,2019,Nebraska,Omaha,N/A,0,1,"View Incident
+View Source"
+270,1505016,September 15,2019,Nevada,Las Vegas,S Lindell Rd and Tropicana Ave,1,0,"View Incident
+View Source"
+271,1504464,September 15,2019,Nebraska,Omaha,N 29th St and Pinkney St,1,0,"View Incident
+View Source"
+272,1505134,September 15,2019,Wisconsin,Baraboo,800 block of Walnut St,0,0,"View Incident
+View Source"
+273,1504555,September 15,2019,Tennessee,Nashville,2021 Fatherland St,1,0,"View Incident
+View Source"
+274,1504763,September 15,2019,Virginia,Hampton,1100 block of Big Bethel Rd,0,1,"View Incident
+View Source"
+275,1505117,September 15,2019,Texas,Fort Worth,700 block of Malta Ave,0,0,"View Incident
+View Source"
+276,1504452,September 15,2019,Missouri,Kansas City,N/A,0,1,"View Incident
+View Source"
+277,1504451,September 15,2019,New Hampshire,Manchester,320 S Porter St,0,0,"View Incident
+View Source"
+278,1504449,September 15,2019,Connecticut,Hartford,Campfield Ave,0,1,"View Incident
+View Source"
+279,1504446,September 15,2019,Connecticut,Bridgeport,1653 Barnum Ave,0,1,"View Incident
+View Source"
+280,1505106,September 15,2019,Texas,Grand Prairie,500 block of W Westchester Pkwy,0,0,"View Incident
+View Source"
+281,1504625,September 15,2019,Virginia,Richmond,3500 block of Chamberlayne Ave,0,1,"View Incident
+View Source"
+282,1504427,September 15,2019,Massachusetts,Haverhill,High St and Jackson St,0,0,"View Incident
+View Source"
+283,1504612,September 15,2019,Texas,Katy,2400 block of Wassail Way,1,0,"View Incident
+View Source"
+284,1504993,September 15,2019,Virginia,Hampton,500 block of Shelton Rd,0,1,"View Incident
+View Source"
+285,1504769,September 15,2019,Virginia,Portsmouth,4000 block of Rivershore Rd,0,1,"View Incident
+View Source"
+287,1504420,September 15,2019,Illinois,Chicago,220 W. Garfield Blvd,0,1,"View Incident
+View Source"
+288,1505081,September 15,2019,South Carolina,Santee,Knowles Rd,1,0,"View Incident
+View Source"
+289,1505057,September 15,2019,Texas,Houston,6938 Calhoun Rd,1,1,"View Incident
+View Source"
+290,1506001,September 15,2019,Iowa,Cedar Falls,804 Walnut St,0,0,"View Incident
+View Source"
+291,1504413,September 15,2019,Colorado,Denver,Morrison Rd and W Kentucky Ave,0,1,"View Incident
+View Source"
+292,1504411,September 15,2019,Colorado,Denver (Welby),Nueva Vista Dr and Explorador Calle,0,1,"View Incident
+View Source"
+293,1504795,September 15,2019,Georgia,Hinesville,700 Block of Wildwood Dr,0,1,"View Incident
+View Source"
+294,1504799,September 15,2019,Georgia,Statesboro,140 Lanier Dr,1,0,"View Incident
+View Source"
+295,1505041,September 15,2019,South Carolina,Columbia,7720 Claudia Dr,0,1,"View Incident
+View Source"
+296,1504825,September 15,2019,North Carolina,Lenoir,4243 Pigtail Rd,2,0,"View Incident
+View Source"
+297,1504405,September 15,2019,Iowa,Waterloo,244 Palmer Drive,0,0,"View Incident
+View Source"
+298,1504341,September 15,2019,South Carolina,North Charleston,5700 block of Dundrum St,2,0,"View Incident
+View Source"
+299,1505023,September 15,2019,Illinois,Geneva,2324 Gary Ln,0,1,"View Incident
+View Source"
+300,1505968,September 15,2019,Texas,Burleson,N/A,0,1,"View Incident
+View Source"
+301,1505002,September 15,2019,Illinois,Chicago,12400 block of S Harvard Ave,0,0,"View Incident
+View Source"
+302,1504589,September 15,2019,Texas,Arlington,3800 block of Mahonia Way,0,1,"View Incident
+View Source"
+303,1504579,September 15,2019,Texas,Arlington,1409 Cloyne Dr,0,2,"View Incident
+View Source"
+304,1504967,September 15,2019,New York,Brooklyn,7 Clermont Ave,2,0,"View Incident
+View Source"
+305,1504385,September 15,2019,Iowa,Fort Dodge,900 4th Ave N,0,1,"View Incident
+View Source"
+306,1504644,September 15,2019,North Carolina,Burlington,218 Adams St,3,0,"View Incident
+View Source"
+307,1504726,September 15,2019,Florida,Jacksonville,600 block of Chestnut Dr,0,1,"View Incident
+View Source"
+308,1504216,September 15,2019,Florida,Jacksonville,Bellrose Ave and Shindler Dr,1,0,"View Incident
+View Source"
+309,1504961,September 15,2019,Kentucky,Hopkinsville,905 Younglove St,0,0,"View Incident
+View Source"
+310,1504363,September 15,2019,Texas,Fort Worth,3700 block of Mansfield Hwy,0,3,"View Incident
+View Source"
+311,1504352,September 15,2019,Kentucky,Lexington,300 block of East Second St,0,1,"View Incident
+View Source"
+313,1505006,September 15,2019,South Carolina,Lancaster,1341 Carmel Rd,1,0,"View Incident
+View Source"
+314,1505885,September 15,2019,Ohio,Lima,912 E Franklin St,0,0,"View Incident
+View Source"
+315,1504934,September 15,2019,Minnesota,Saint Paul,W Thomas Ave and N Griggs St,1,0,"View Incident
+View Source"
+316,1504925,September 15,2019,Ohio,Senecaville,Starling Ln,0,0,"View Incident
+View Source"
+317,1504921,September 15,2019,Pennsylvania,York,800 block of W College Ave,0,0,"View Incident
+View Source"
+318,1504314,September 15,2019,Pennsylvania,Pittsburgh,Wylie Ave and Watt St,0,1,"View Incident
+View Source"
+319,1504286,September 15,2019,Indiana,South Bend,52624 In-933,1,0,"View Incident
+View Source"
+320,1504606,September 15,2019,Texas,Baytown,1700 block of James Bowie Dr,1,0,"View Incident
+View Source"
+321,1504302,September 15,2019,Michigan,Detroit,Wyoming Ave and 7 Mile Rd,0,1,"View Incident
+View Source"
+322,1504304,September 15,2019,Michigan,Detroit,Carbondale St and Tireman Ave,0,1,"View Incident
+View Source"
+323,1504892,September 15,2019,Pennsylvania,Philadelphia,3100 block of Weymouth St,1,0,"View Incident
+View Source"
+324,1504886,September 15,2019,Wisconsin,Westford,Corwin Ridge Rd and Co Hwy II,0,0,"View Incident
+View Source"
+325,1505754,September 15,2019,Wisconsin,Beloit,500 block of Frederick St,0,0,"View Incident
+View Source"
+326,1504863,September 15,2019,Wisconsin,Kenosha,5900 block of 19th Ave,1,0,"View Incident
+View Source"
+327,1504861,September 15,2019,North Carolina,Durham,N Miami Blvd and Rayner St,0,1,"View Incident
+View Source"
+328,1504857,September 15,2019,North Carolina,Durham,3100 block of Hursey St,1,0,"View Incident
+View Source"
+329,1504493,September 15,2019,Oklahoma,Oklahoma City,N Harvey Ave and NW 25th St,1,0,"View Incident
+View Source"
+330,1504852,September 15,2019,North Carolina,Jacksonville,Myna Dr,0,2,"View Incident
+View Source"
+331,1504849,September 15,2019,California,Sacramento,2200 block of Arden Way,0,2,"View Incident
+View Source"
+332,1504847,September 15,2019,California,Los Angeles,1700 block of Firestone Blvd,1,0,"View Incident
+View Source"
+333,1504846,September 15,2019,North Carolina,High Point,6100 block of Riverdale Dr,0,0,"View Incident
+View Source"
+334,1506577,September 15,2019,Arkansas,Marked Tree,N/A,0,0,"View Incident
+View Source"
+335,1505616,September 15,2019,Maryland,Hagerstown,20300 block of Youngstoun Ct,0,0,"View Incident
+View Source"
+336,1504469,September 15,2019,California,Fresno,Shields Ave,0,1,"View Incident
+View Source"
+337,1504283,September 15,2019,Indiana,West Lafayette,111 S Salisbury St,0,2,"View Incident
+View Source"
+339,1504812,September 15,2019,North Carolina,Asheboro,1958 Lakeview Rd,1,0,"View Incident
+View Source"
+340,1504806,September 15,2019,Indiana,Mishawaka,1200 Farmcrest Cir,0,1,"View Incident
+View Source"
+341,1504350,September 15,2019,Kentucky,Lexington,700 block of Florence Ave,1,0,"View Incident
+View Source"
+342,1504281,September 15,2019,Illinois,Chicago,1200 S Stewart Ave,0,1,"View Incident
+View Source"
+343,1504279,September 15,2019,Illinois,Chicago,200 E 55th Pl,0,1,"View Incident
+View Source"
+344,1504277,September 15,2019,Illinois,Chicago,2800 W 23rd St,0,1,"View Incident
+View Source"
+345,1504270,September 15,2019,Illinois,Chicago,424 W Fullerton Ave,0,1,"View Incident
+View Source"
+346,1504229,September 15,2019,Georgia,Atlanta,Fitzgerald St and Chamberlain St,0,1,"View Incident
+View Source"
+347,1505614,September 15,2019,Maryland,Annapolis,1400 block of Tyler Ave,0,0,"View Incident
+View Source"
+348,1504260,September 15,2019,Maryland,Great Mills,Fox Chase Dr,0,1,"View Incident
+View Source"
+349,1504254,September 15,2019,Illinois,Chicago,9700 block of S University Ave,0,1,"View Incident
+View Source"
+350,1504248,September 15,2019,Illinois,Chicago,5100 block of S Maplewood Ave,0,1,"View Incident
+View Source"
+351,1504582,September 15,2019,Mississippi,Robinsonville,2669 Kirby Rd,1,0,"View Incident
+View Source"
+352,1504736,September 15,2019,Florida,Orlando,Booker St and Florence Ave,0,1,"View Incident
+View Source"
+353,1506448,September 15,2019,New York,Port Jervis,Seward Ave and Ball St,0,0,"View Incident
+View Source"
+354,1504721,September 15,2019,Florida,Jacksonville,Jammes Rd and San Juan Ave,0,1,"View Incident
+View Source"
+355,1505561,September 15,2019,District of Columbia,Washington,4th St NW and Taylor St NW,0,0,"View Incident
+View Source"
+356,1504716,September 15,2019,Florida,Gainesville,2900 SW 42nd St,0,3,"View Incident
+View Source"
+357,1504534,September 15,2019,District of Columbia,Washington,50 block of 35th St NE,1,0,"View Incident
+View Source"
+358,1504712,September 15,2019,Florida,Deland,2435 Princeton Rd,0,0,"View Incident
+View Source"
+359,1504704,September 15,2019,Delaware,Bear,3800 block of Wrangle Hill Rd,0,0,"View Incident
+View Source"
+360,1504699,September 15,2019,Delaware,Wilmington,1900 block of N Washington St,0,1,"View Incident
+View Source"
+361,1504693,September 15,2019,Ohio,Columbus,200 block of Buffalo Ct,0,1,"View Incident
+View Source"
+362,1504691,September 15,2019,Ohio,Columbus,2000 block of Morse Rd,0,1,"View Incident
+View Source"
+363,1504547,September 15,2019,Ohio,Cincinnati,800 block of Main St,0,1,"View Incident
+View Source"
+365,1504547,September 15,2019,Ohio,Cincinnati,800 block of Main St,0,1,"View Incident
+View Source"
+366,1506376,September 15,2019,Washington,Richland,1500 Mansfield St,0,1,"View Incident
+View Source"
+367,1504677,September 15,2019,Oregon,Portland,N/A,0,0,"View Incident
+View Source"
+368,1506369,September 15,2019,Louisiana,Thibodaux,1600 block of Ledet St,1,0,"View Incident
+View Source"
+369,1504659,September 15,2019,New Jersey,Paterson,Market St and Rose St,0,1,"View Incident
+View Source"
+370,1504608,September 15,2019,Texas,Houston,4900 block of Southwind St,0,1,"View Incident
+View Source"
+371,1505469,September 15,2019,Alabama,Gadsden,1700 block of Springrock St,1,0,"View Incident
+View Source"
+372,1504671,September 15,2019,Washington,Camas,19408 SE 42nd Cir,1,0,"View Incident
+View Source"
+373,1505441,September 15,2019,Texas,Fort Worth,700 block of W Malta Ave,0,0,"View Incident
+View Source"
+374,1504619,September 15,2019,Texas,Fort Worth,7700 block of Greengage Dr,1,0,"View Incident
+View Source"
+375,1504139,September 14,2019,Illinois,Joliet,E Cass St and Collins St,0,1,"View Incident
+View Source"
+376,1506323,September 14,2019,Oregon,Pendleton,N/A,0,1,"View Incident
+View Source"
+377,1504027,September 14,2019,Texas,Fort Worth,5701 Shelton St,0,2,"View Incident
+View Source"
+378,1504117,September 14,2019,Kansas,Wichita,E Whitney Ln,0,1,"View Incident
+View Source"
+379,1504632,September 14,2019,Texas,San Antonio,500 block of Corliss,0,0,"View Incident
+View Source"
+380,1504102,September 14,2019,Colorado,Colorado Springs,700 block of N 17th St,0,1,"View Incident
+View Source"
+381,1505380,September 14,2019,California,Richmond,800 block of Lincoln Ave,1,0,"View Incident
+View Source"
+382,1505378,September 14,2019,California,Newark,38080 Birch St,1,0,"View Incident
+View Source"
+383,1503904,September 14,2019,Michigan,Detroit,18912 Van Dyke Ave,0,1,"View Incident
+View Source"
+384,1504210,September 14,2019,Nevada,Las Vegas,2100 block of Industrial Rd,1,0,"View Incident
+View Source"
+385,1506155,September 14,2019,Iowa,Henry (county),1400 block of 240th St,0,0,"View Incident
+View Source"
+386,1505321,September 14,2019,Michigan,New Hudson,Boyne St,0,1,"View Incident
+View Source"
+387,1504600,September 14,2019,Pennsylvania,Allentown,500 block of N Mohr St,0,0,"View Incident
+View Source"
+388,1505310,September 14,2019,Connecticut,Stafford Springs,44 W Stafford Rd,0,0,"View Incident
+View Source"
+389,1505305,September 14,2019,Connecticut,New London,1 Ocean Ave,0,0,"View Incident
+View Source"
+391,1506284,September 14,2019,Idaho,Silverwood,Brunner Rd,0,0,"View Incident
+View Source"
+392,1504575,September 14,2019,Tennessee,Nashville,700 block of Airways Cir,0,1,"View Incident
+View Source"
+393,1506275,September 14,2019,Idaho,Moscow,700 block of Brent Dr,0,0,"View Incident
+View Source"
+394,1504574,September 14,2019,Ohio,Youngstown,E Boston Ave,0,0,"View Incident
+View Source"
+395,1506271,September 14,2019,Michigan,Pontiac,Baldwin Rd and E Montcalm St,0,0,"View Incident
+View Source"
+396,1504565,September 14,2019,Tennessee,Nashville,I-24,0,0,"View Incident
+View Source"
+397,1504561,September 14,2019,Tennessee,Knoxville,500 block of Balsam Dr,1,0,"View Incident
+View Source"
+398,1504557,September 14,2019,Tennessee,Nashville,I-65 and Rosa Parks Blvd,0,1,"View Incident
+View Source"
+399,1504531,September 14,2019,New York,Syracuse,121 W Seneca Turnpike,0,2,"View Incident
+View Source"
+400,1503951,September 14,2019,Tennessee,Ooltewah,7900 block of Sue Dr,1,0,"View Incident
+View Source"
+401,1504063,September 14,2019,California,Sacramento,Marconi Ave and Howe Ave,0,1,"View Incident
+View Source"
+402,1506239,September 14,2019,Florida,Tallahassee,N Monroe St and Fred George Rd,0,0,"View Incident
+View Source"
+403,1503787,September 14,2019,District of Columbia,Washington,600 block of H St NE,0,1,"View Incident
+View Source"
+404,1504539,September 14,2019,New York,Bronx,Bathgate Ave and E 178th St,0,0,"View Incident
+View Source"
+405,1503927,September 14,2019,Kentucky,Louisville,2400 block of Elliot Ave,1,0,"View Incident
+View Source"
+406,1505243,September 14,2019,Michigan,Flint,2000 block of Frances Ave,0,1,"View Incident
+View Source"
+407,1506213,September 14,2019,Illinois,Pike (county),I-72,0,0,"View Incident
+View Source"
+408,1504053,September 14,2019,Kentucky,Lexington,Buckhorn Dr,0,0,"View Incident
+View Source"
+409,1504100,September 14,2019,Louisiana,Baton Rouge,16700 block of Highland Club Ave,1,0,"View Incident
+View Source"
+410,1504604,September 14,2019,Texas,Houston,Alta Vista St,0,0,"View Incident
+View Source"
+411,1504516,September 14,2019,New York,Niagara Falls,1100 block of 19th St,0,1,"View Incident
+View Source"
+412,1505209,September 14,2019,Texas,Longview,N/A,0,0,"View Incident
+View Source"
+413,1504048,September 14,2019,Illinois,Chicago,11000 block of S Bishop St,0,1,"View Incident
+View Source"
+414,1503691,September 14,2019,Illinois,Chicago,500 block of N Lawler Ave,1,0,"View Incident
+View Source"
+415,1503902,September 14,2019,Mississippi,Vicksburg,500 block of Hutson St,0,1,"View Incident
+View Source"
+417,1504044,September 14,2019,Illinois,Chicago,1800 block of S Keeler Ave,1,0,"View Incident
+View Source"
+418,1506167,September 14,2019,California,Victorville,16900 block of C St,0,1,"View Incident
+View Source"
+419,1505202,September 14,2019,Texas,Tom Green (county),N/A,0,0,"View Incident
+View Source"
+420,1504513,September 14,2019,New York,Watervliet,1500 block of 4th Ave,0,0,"View Incident
+View Source"
+421,1504508,September 14,2019,Illinois,Carbondale,700 block of N Robert A Stalls Ave,0,3,"View Incident
+View Source"
+422,1504504,September 14,2019,Kentucky,Louisville,2400 block of Franklin Ave,0,1,"View Incident
+View Source"
+423,1504370,September 14,2019,Kentucky,Louisville,N/A,1,0,"View Incident
+View Source"
+424,1504482,September 14,2019,California,Santa Ana,500 E Pine St,1,0,"View Incident
+View Source"
+425,1505148,September 14,2019,California,Oxnard,1700 block of Elsinore Cir,1,0,"View Incident
+View Source"
+426,1504164,September 14,2019,Missouri,Saint Louis,4069 Shaw Blvd,0,3,"View Incident
+View Source"
+427,1504476,September 14,2019,California,Fresno,Glenn Ave and Belmont Ave,0,0,"View Incident
+View Source"
+428,1504030,September 14,2019,Missouri,Saint Louis,5200 block of Tennessee Ave,1,3,"View Incident
+View Source"
+429,1504454,September 14,2019,Missouri,Kansas City,11400 block of Herrick Ave,0,1,"View Incident
+View Source"
+430,1504506,September 14,2019,West Virginia,Charleston,Glenwood Ave and 7th St,1,0,"View Incident
+View Source"
+431,1503962,September 14,2019,Virginia,Hampton,1600 block of W Pembroke Ave,0,1,"View Incident
+View Source"
+432,1506025,September 14,2019,Florida,Sebastian (Barefoot Bay),N/A,0,0,"View Incident
+View Source"
+433,1503968,September 14,2019,Virginia,Roanoke,3602 Williamson Rd NW,0,2,"View Incident
+View Source"
+434,1504441,September 14,2019,Connecticut,New Haven,Hobart St,0,2,"View Incident
+View Source"
+435,1505097,September 14,2019,Texas,Dallas,2900 block of St Bernard Dr,0,3,"View Incident
+View Source"
+436,1505078,September 14,2019,Illinois,Rockford,4200 block of Auburn St,0,1,"View Incident
+View Source"
+437,1503990,September 14,2019,Pennsylvania,Philadelphia,500 block of S 57th St,0,2,"View Incident
+View Source"
+438,1503985,September 14,2019,Tennessee,Dyersburg,600 block of Lake Rd,2,0,"View Incident
+View Source"
+439,1504415,September 14,2019,Colorado,Grand Junction,337 S Redlands Rd,0,0,"View Incident
+View Source"
+440,1505989,September 14,2019,Tennessee,Memphis,Cooper St and Felix Ave,0,0,"View Incident
+View Source"
+441,1504409,September 14,2019,Iowa,Waterloo,E 4th St and E Parker St,0,0,"View Incident
+View Source"
