@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # Dependencies
 # Declare Dependencies 
 from splinter import Browser
@@ -10,22 +7,14 @@ import html5lib
 import pandas as pd
 import lxml
 import requests
-import sqlalchemy
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine
-engine = create_engine('sqlite://', echo=False)
-
 
 # Choose the executable path to driver 
 executable_path = {'executable_path': 'chromedriver.exe'}
 browser = Browser('chrome', **executable_path, headless=False)
 
-
 # URL
 url = 'https://www.gunviolencearchive.org/reports/total-number-of-incidents?year=2018'
 browser.visit(url)
-
 
 # HTML Object
 html = browser.html
@@ -33,13 +22,10 @@ html = browser.html
 # Parse HTML with Beautiful Soup
 soup = BeautifulSoup(html, 'html.parser')
 
-
 print(soup.prettify())
-
 
 rows =soup.findAll('tr')
 print(rows[:10])
-
 
 headers = rows[0].find_all('th')
 headers = [header.get_text().strip('\n') for header in headers]
@@ -49,12 +35,10 @@ row = rows[0].find_all('tr')
 row = [row.get_text().strip('\n') for row in rows]
 row
 
-
 for row in rows:
     row_td = row.find_all('td')
 print(row_td)
 type(row_td)
-
 
 str_cells = str(row_td)
 cleantext = BeautifulSoup(str_cells, "lxml").get_text()
@@ -73,12 +57,13 @@ for row in rows:
 print(clean2)
 type(clean2)
 
-
 df = pd.DataFrame(list_rows)
 df.head(10)
 
+
 df1 = df[0].str.split(',', expand=True)
 df1.head(10)
+
 
 df1[0] = df1[0].str.strip('[')
 df1.head(10)
@@ -112,7 +97,6 @@ frames = [df2, df1]
 df4 = pd.concat(frames)
 df4.head(10)
 
-
 df5 = df4.rename(columns=df4.iloc[0])
 df5.head()
 
@@ -121,17 +105,9 @@ df5.shape
 
 df6 = df5.dropna(axis=0, how='any')
 
-
 df7 = df6.drop(df6.index[0])
 df7.head()
 
 df7['Operations'] = df7['Operations'].str.strip(']').str.strip('\n')
 df7.head()
-
-df7.to_csv("gunviolence_db.csv")
-
-# Create engine using the `gunviolence_db.sqlite` database file
-engine = create_engine("sqlite:///../project2_team4/gunviolence_db.sqlite")
-
-df.to_sql("gunviolence_db", con=engine)
 
